@@ -190,7 +190,7 @@
     margin-top: 50px;
 }
 
-.content-btn{
+.content-btn {
     display: flex;
     justify-content: center;
 }
@@ -228,22 +228,39 @@
     .navbar button {}
 
     @media screen and (max-width: 700px) {
-        .about-content{
-            display: grid;
-           justify-items: center;
-        }
-        .p{
+        .about-content {
             display: grid;
             justify-items: center;
         }
-        .more{
-            display: grid;
-            justify-items: center;
-        }
-        .about{
-            height: 150vh;
 
+        .p {
+            display: grid;
+            justify-items: center;
         }
+
+        .more {
+            display: grid;
+            justify-items: center;
+        }
+
+        .about {
+            height: 150vh;
+        }
+
+        .head p {
+            font-size: small;
+        }
+        .abt-head h3{
+            padding: 20px;
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        .about-right p {
+            width: 600px;
+        }
+
+
     }
 
 }
